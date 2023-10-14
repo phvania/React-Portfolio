@@ -15,7 +15,7 @@ function App() {
   //const [Aboutme, setAboutMe] = useState('')
 
   return (
-    AboutMe, Contact, Portfolio, Resume,Footer, Header, Navigation 
+    <AboutMe/>
   
   )
 
