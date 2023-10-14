@@ -1,4 +1,4 @@
-import React,{ useState } from "react";
+import React, { useState } from "react";
 import { XIcon } from "@heroicons/react/solid";
 import tw from "tailwind-styled-components";
 
@@ -34,7 +34,7 @@ const ActiveContainer = tw.div`
 
 
 
-const NavBar = ({ showPage, setShowPage }) => {
+const NavBar = ({ showPage  setShowPage}) =>  {
   const [hidePage, setHidePage] = useState([]);
 
   return (
@@ -44,7 +44,7 @@ const NavBar = ({ showPage, setShowPage }) => {
           onClick={() => {
             setShowPage("home");
           }}
-        > 
+        >
           Home.js
         </ActiveContainer>
       ) : (
@@ -52,11 +52,11 @@ const NavBar = ({ showPage, setShowPage }) => {
           onClick={() => {
             setShowPage("home");
           }}
-        >  
+        >
           Home.js
         </Container>
       )}
-      
+
       {hidePage.includes("about") ? null : showPage === "about" ? (
         <ActiveContainer
           onClick={() => {
@@ -69,29 +69,30 @@ const NavBar = ({ showPage, setShowPage }) => {
             onClick={(e) => {
               e.stopPropagation();
               setShowPage("home");
-              setHidePage(prevState=>[...prevState, "about"]);
+              setHidePage(prevState => [...prevState, "about"]);
             }}
           />
         </ActiveContainer>
-      ) : 
+      ) : (
         <Container
           onClick={() => {
             setShowPage("about");
           }}
         >
-          
+
           About.js
           <XIcon
             className="w-6 ml-4 hover:bg-gray-600 hover:rounded"
             onClick={(e) => {
               e.stopPropagation();
               setShowPage("home");
-              setHidePage(prevState=>[...prevState, "about"]);
+              setHidePage(prevState => [...prevState, "about"]);
             }}
           />
         </Container>
-}
-  
+      )
+      }
+
       {hidePage.includes("resume") ? null : showPage === "resume" ? (
         <ActiveContainer
           onClick={() => {
@@ -104,7 +105,7 @@ const NavBar = ({ showPage, setShowPage }) => {
             onClick={(e) => {
               e.stopPropagation();
               setShowPage("home");
-              setHidePage(prevState=>[...prevState, "resume"]);
+              setHidePage(prevState => [...prevState, "resume"]);
             }}
           />
         </ActiveContainer>
@@ -120,7 +121,7 @@ const NavBar = ({ showPage, setShowPage }) => {
             onClick={(e) => {
               e.stopPropagation();
               setShowPage("home");
-              setHidePage(prevState=>[...prevState, "resume"]);
+              setHidePage(prevState => [...prevState, "resume"]);
               console.log(hidePage);
             }}
           />
@@ -138,7 +139,7 @@ const NavBar = ({ showPage, setShowPage }) => {
             onClick={(e) => {
               e.stopPropagation();
               setShowPage("home");
-              setHidePage(prevState=>[...prevState, "contact"]);
+              setHidePage(prevState => [...prevState, "contact"]);
             }}
           />
         </ActiveContainer>
@@ -148,14 +149,14 @@ const NavBar = ({ showPage, setShowPage }) => {
             setShowPage("contact");
           }}
         >
-          
+
           Contact.js
           <XIcon
             className="w-6 ml-4 hover:bg-gray-600 hover:rounded"
             onClick={(e) => {
               e.stopPropagation();
               setShowPage("home");
-              setHidePage(prevState=>[...prevState, "contact"]);
+              setHidePage(prevState => [...prevState, "contact"]);
               console.log(hidePage);
 
             }}
@@ -163,14 +164,10 @@ const NavBar = ({ showPage, setShowPage }) => {
         </Container>
       )}
     </div>
-    
+
   );
-          };
-        
-   );
-      
-             
+}
 
-          
 
-export default NavBar;
+
+export default Navigation;

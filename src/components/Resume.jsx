@@ -1,5 +1,5 @@
 import React from "react";
-import { ClipboardListIcon } from "@heroicons/react/solid";
+//import { ClipboardListIcon } from "@heroicons/react/solid";
 
 const Resume = () => {
   return (
@@ -9,7 +9,7 @@ const Resume = () => {
     >
       <div>
         <div className="table">
-          <ClipboardListIcon className="h-5 w-5 mr-4 text-yellow_vs" />{" "}
+          
           <code className="table-cell text-[#e6f1ff] text-3xl mt-5 whitespace-nowrap">
             Resume
           </code>
@@ -25,11 +25,11 @@ const Resume = () => {
             <code className="text-blue_vs">Lorem Ipsum</code>
             <br />
             <code className="italic text-sm text-lightblue_vs">
-              Masters in Information technology
+              BSc.BEd with Math and Science and Full stack Web Development course
             </code>
             <br />
             <code className="text-xs text-brown_vs">
-              • Sept 2014 - July 2017
+              • Sept 1997 - July 2000 and 2023(Web Development)
             </code>
           </div>
         </div>
@@ -41,19 +41,19 @@ const Resume = () => {
             <code className="text-blue_vs">Lorem Ipsum</code>
             <br />
             <code className="italic text-sm text-lightblue_vs">
-              Lorem - Paris, France{" "}
+              Lorem - Gujarat, India{" "}
             </code>
             <br />
-            <code className="text-xs text-brown_vs">• July 2017 - Present</code>
+            <code className="text-xs text-brown_vs">• June2002 - 2022</code>
             <br />
             <code className="text-sm">
-              <br />• Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              <br />• Sed id eros non nisi vulputate eleifend. Vestibulum erat
-              ipsum, lacinia ut nibh ut, pulvinar interdum lorem.
-              <br />• Aliquam et nisi eu risus ultrices suscipit nec nec quam.
-              <br />• Suspendisse pretium fermentum luctus.
-              <br />• Maecenas vitae vestibulum ipsum, ut varius diam.
-              <br />• Phasellus mattis nunc vel purus maximus.
+              <br />• Worked as a math and science Teahcher in St.Mary school ,India
+              <br />• Worked as a math and science Teahcher in St.Xavier high  school ,India
+              Worked as a math and science Teahcher in Bhavans high school ,India
+              <br />• worked in achild care   center as aassistant teacher, Winnipag Manitoba
+              <br />• Worked in a  customer service department in food company, ontatio
+              <br />• work as a Educational Assistant at DPCDSB
+              <br />
             </code>
           </div>
         </div>
@@ -63,17 +63,15 @@ const Resume = () => {
           </div>
           <div className="w-3/4">
             <code className="text-sm">
-              <br />• Nulla tristique luctus lacinia. Nullam ut tortor arcu.
-              <br />• Aenean in mi non leo placerat suscipit a eget odio.
-              <br />• Vivamus et dolor odio.
-              <br />• Suspendisse tempus interdum eros, et bibendum massa tempus
-              vitae.
-              <br />• Sed in aliquam ligula. Sed eget orci tortor.
-              <br />• Pellentesque laoreet laoreet justo, sed efficitur sapien
-              tincidunt eu.
-              <br />• Nulla tempor nunc eu molestie volutpat. Nunc a accumsan
-              dolor.
-              <br />• Duis ut congue dui.
+              <br />• Experience in using Git and VS code
+              <br />• Excellent collaborative Skills.
+                     Strong in communication and great problem solv
+              <br />•Strong ablility  to coordinate with external and internal clients
+              <br />•great knowledge of the entire web development process
+              <br />• strong  experience with HTML CSS and JavaScript
+              <br />• Good knowledge about React and third-party libraries
+              <br />. Good Creativity and knowledge in responsive Design
+              <br />. Testing and Debugging
             </code>
           </div>
         </div>
