@@ -167,7 +167,9 @@ const NavBar = ({ showPage, setShowPage }) => {
   );
           };
         
-        
+   );
+      
+             
 
           
 
