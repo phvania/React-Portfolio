@@ -1,5 +1,5 @@
 import React from 'react';
-import {  EMAIL_ID, FIRST_NAME, LAST_NAME,} from '/root.link'
+import {  EMAIL_ID, FIRST_NAME, LAST_NAME,} from './root.link'
 const Contact = () => {
   return (
     <section className='my-28' id='contact'>
