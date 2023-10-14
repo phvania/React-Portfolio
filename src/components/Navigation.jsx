@@ -34,7 +34,7 @@ const ActiveContainer = tw.div`
 
 
 
-const NavBar = ({ showPage  setShowPage}) =>  {
+const NavBar = ({ showPage,  setShowPage}) =>  {
   const [hidePage, setHidePage] = useState([]);
 
   return (
