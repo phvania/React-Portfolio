@@ -8,7 +8,7 @@ className="mx-12 mt-60 lg:mx-60 items-center justify-center lg:w-1/2 text-justif
 >
 <div>
   <div className="table">
-    <IdentificationIcon className="h-5 w-5 mr-4 text-yellow_vs" />{" "}
+    
     <code className="table-cell text-[#e6f1ff] text-3xl mt-5 whitespace-nowrap">
       About Me
     </code>
