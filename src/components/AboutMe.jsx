@@ -16,7 +16,8 @@ className="mx-12 mt-60 lg:mx-60 items-center justify-center lg:w-1/2 text-justif
   </div>
   <div className="text-[#a2aabc] text-lg mt-5">
     <code>
-    Hello there, My name is Priti Vania.I love coding and building web page, it allows me to express myself creativety and force me to think critically.it brings new idea to life 
+    Hello there,
+     My name is Priti Vania.I love coding and building web page, it allows me to express myself creativety and force me to think critically.it brings new idea to life 
     love solving real problems.I apply my creativity  and expertise to design every page of application.
     Here some more information I like to add for my self that I am collaborative, curious, hard worker and self motivated person.I do my best to learn new or complex feature, any new technology.I love to take challenges to prove myself.  
   

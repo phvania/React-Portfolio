@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 export default function Nav() {
   return (
     <div>
-        <h1 style={{background: 'pink'}}>My Portfolio</h1>
+        
         <nav
         style={{padding:'0.5rem', fontSize:'1rem'}}>
             <Link to="/">Home</Link> |{"       "}

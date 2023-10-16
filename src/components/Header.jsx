@@ -4,16 +4,20 @@ function Header() {
 
 
   const style={
-    backgroundColor: 'black',
-    font: '20px sans-ser',
-    color:'white'
+    backgroundColor: 'green',
+    font: '50px sans-ser',
+    color:'white',
+    
   }
 
   return (
     <div id="Header" className="mx-12 lg:mx-60 pt-60 items-center justify-center lg:w-1/2 text-justify">   
-      <div className="flex flex-col" style={style}>
+      
+        <h1 style={{background: 'pink'}}>My Portfolio</h1>
+        <div className="flex flex-col" style={style}>
+
         <code className="text-lightblue_vs">PRITI VANIA</code>
-        <code className="text-[#e6f1ff] text-7xl mt-5">Full Stack Developer</code>
+        <code className="text-[#e6f1ff] text-7xl mt-5">(Full Stack Developer)</code>
       </div>
     </div>
   );

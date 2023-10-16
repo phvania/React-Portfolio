@@ -20,7 +20,7 @@ const Portfolio = () => {
           </header>
           <div className='my-7 space-y-24' style={style}>
             {projectData.map((project) => (
-              <article className='flex flex-wrap md:justify-between md:items-center'>
+              <article className='flex flex-wrap md:justify-between md:items-center' >
                 <picture >
                   <img src={project.image}  />
                 </picture>

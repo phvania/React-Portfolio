@@ -24,9 +24,9 @@ const Contact = () => {
             <label htmlFor='email'>Email</label>
             <input type='email' name='email' id='email' className='gradient' required></input>
             <label htmlFor='message'>Message</label>
-            <textarea name='message' id='message' cols='25' rows='5' className='gradient' required></textarea>
+            <textarea name='message' id='message' cols='20' rows='4' className='gradient' required></textarea>
             <button type='submit' className='border border-gray-500 p-2 rounded-lg w-auto mr-auto shadow-md'>
-              Send Message
+              Submit
             </button>
           </form>
         </div>

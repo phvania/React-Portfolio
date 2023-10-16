@@ -11,12 +11,12 @@ function Footer() {
   //let year = date.getFullYear();
 
   const style={
-    backgroundColor: 'black',
+    backgroundColor: 'gray',
     font: '20px sans-ser',
     color:'white',
     display: 'flex',
     justifyContent: 'space-around',
-    margin: '10px'
+    margin: '0px'
   }
 
   return (
