@@ -12,10 +12,13 @@ function Footer() {
 
   const style={
     backgroundColor: 'gray',
-    font: '20px sans-ser',
+    font: '25px sans-ser',
     color:'white',
     display: 'flex',
-    justifyContent: 'space-around',
+    justifyContent: 'center', 
+    flexitems: 'center',
+    gap: 10,
+    
     margin: '0px'
   }
 

@@ -7,7 +7,7 @@ const Contact = () => {
         <h2>Contact Me</h2>
         
       </header>
-      <div className='md:mx-6 flex flex-col flex-wrap md:flex-row justify-between'>
+      <div className='md:mx-6 flex flex-row flex-wrap md:flex-col justify-between'>
         <div className='md:w-6/12 md:px-0 p-5 my-5'>
           <div>
             <p className='font-bold'>{FIRST_NAME} {LAST_NAME}</p>
@@ -24,7 +24,7 @@ const Contact = () => {
             <label htmlFor='email'>Email</label>
             <input type='email' name='email' id='email' className='gradient' required></input>
             <label htmlFor='message'>Message</label>
-            <textarea name='message' id='message' cols='20' rows='4' className='gradient' required></textarea>
+            <textarea name='message' id='message' cols='20' rows='3' className='gradient' required></textarea>
             <button type='submit' className='border border-gray-500 p-2 rounded-lg w-auto mr-auto shadow-md'>
               Submit
             </button>
