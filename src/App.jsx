@@ -2,6 +2,7 @@
 //import reactLogo from './assets/react.svg'
 //import viteLogo from '/vite.svg'
 //import './App.css'
+//fixed 
 import {BrowserRouter, Routes, Route, Link} from 'react-router-dom';
 import AboutMe from './components/AboutMe';
 import Contact from './components/Contact';
