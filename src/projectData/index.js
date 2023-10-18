@@ -1,5 +1,6 @@
-﻿import projectImage from '../assets/project.jpg'
+﻿//import projectImage from '../assets/project.jpg'
 import mainImage from '../assets/main image.jpg'
+import project2 from '../assets/project2.png'
 //import screenshot from  '../assets/screenshot.png'
 const projectData =[
     
@@ -14,14 +15,14 @@ const projectData =[
     {
         title: 'Project2',
         description: 'This is my second project',
-        image: projectImage,
+        image: project2,
         github:'https://github.com/phvania/finance-update-app',
         link:' https://phvania.github.io/finance-update-app/'
     },
     {
         title: 'Project3',
         description: 'This is my third project',
-        image: projectImage,
+        image: project2,
         github:'https://github.com/phvania/LittleKingdom',
         link:'https://fast-island-89305-9c728bd1817b.herokuapp.com/login'
     },

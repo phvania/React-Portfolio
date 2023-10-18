@@ -5,7 +5,7 @@ function Header() {
 
   const style={
     backgroundColor: 'green',
-    font: '50px sans-ser',
+    font: '60px sans-ser',
     color:'white',
     
   }

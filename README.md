@@ -15,6 +15,8 @@ Link:
 
 ##  screenshot:
 ![Alt text](image.png)
+https://drive.google.com/file/d/1PVAeaZUXgfwxy2n55Cuz8AIZBCkdQlgm/view
+
 
 ## Description:
 create a portfolio using your new React skills, which will help set you apart from other developers whose portfolios don’t use the latest technologies  and deploy this application to Netlify.

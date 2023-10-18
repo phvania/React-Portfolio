@@ -11,6 +11,10 @@ const Portfolio = () => {
         justifyContent: 'space-between',
         width: '100%'
     }
+    const imageStyle ={
+      width: "600px",
+      height:"300px"
+    }
     
     return (
       <div id="Projects">
@@ -20,9 +24,9 @@ const Portfolio = () => {
           </header>
           <div className='my-7 space-y-24' style={style}>
             {projectData.map((project) => (
-              <article className='flex flex-wrap md:justify-between md:items-center' >
+              <div className='flex flex-wrap md:justify-between md:items-center' key={project.title} >
                 <picture >
-                  <img src={project.image}  />
+                  <img src={project.image} style={imageStyle} />
                 </picture>
                 <div className='flex flex-col overflow-auto  space-y-3 my-3 mx-1 w-full md:w-5/12 '>
                   <h3 className='uppercase font-bold text-lg'>{project.title}</h3>
@@ -39,7 +43,7 @@ const Portfolio = () => {
                   </div>
                   
                 </div>
-            </article>
+            </div>
             ))}
           </div>
         </section>
