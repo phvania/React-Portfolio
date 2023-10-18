@@ -8,7 +8,7 @@ const projectData =[
     {
         title: 'Project1',
         description: 'This is my first project',
-        image: mainImage,
+        image: mainimage,
         github:'https://github.com/phvania/LittleKingdom',
         link:'https://fast-island-89305-9c728bd1817b.herokuapp.com/login'
     },
