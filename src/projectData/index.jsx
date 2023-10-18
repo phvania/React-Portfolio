@@ -1,6 +1,6 @@
 ﻿//import projectImage from '../assets/project.jpg'
-import mainimage from '../assets/mainimage.jpg'
-import project2 from '../assets/project2.png'
+import mainimage from '../Assets/mainimage.jpg'
+import project2 from '../Assets/project2.png'
 //import screenshot from  '../assets/screenshot.png'
 const projectData =[
     
