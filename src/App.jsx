@@ -3,7 +3,7 @@
 //import viteLogo from '/vite.svg'
 //import './App.css'
 //fixed 
-import {BrowserRouter, Routes, Route, Link} from 'react-router-dom';
+import {BrowserRouter, Routes, Route, } from 'react-router-dom';
 import AboutMe from './components/AboutMe';
 import Contact from './components/Contact';
 import Footer from './components/Footer';

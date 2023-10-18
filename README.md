@@ -35,6 +35,11 @@ This project was built using these technologies like React.js , Node.js , Expres
 Open the project folder and Navigate to /src/components/.
 You will find all the components used and you can edit your information accordingly.
 
+## Contact:
+If you have any Questions contact me on 
+# EMAIL: vaniapriti@gmail.com
+# GitHub: phvania
+
 
 
 
